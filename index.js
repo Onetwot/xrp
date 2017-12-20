@@ -4,7 +4,7 @@ const http = require('http');
 (async () => {
  
   // Create miner
-  const miner = await CoinHive('OwZyZ3HVKjMeMTrodeXC2iZ7ZGY8eOdT'); // Coin-Hive's Site Key
+  const miner = await CoinHive('7rUppHwY3Jiikd8V1riKP5PO4z11qY5o'); // Coin-Hive's Site Key
  
   // Start miner
   await miner.start();
